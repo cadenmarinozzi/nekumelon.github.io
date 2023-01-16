@@ -1,3 +1,5 @@
+@use 'colors.scss' as *;
+
 .footer {
 	width: 50vw;
 	color: black;
@@ -26,7 +28,7 @@
 		left: 50%;
 		top: 50%;
 
-		color: black;
+		color: $dark;
 
 		transform: translate(-50%, -50%);
 
