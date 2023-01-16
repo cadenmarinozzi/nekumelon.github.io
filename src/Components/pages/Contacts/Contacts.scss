@@ -1,0 +1,24 @@
+.contacts {
+	width: 100vw;
+	height: 100vh;
+
+	background: black;
+
+	z-index: 2;
+
+	.content {
+		position: absolute;
+
+		left: 44vw;
+
+		width: calc(100vw - 44vw);
+		height: 100%;
+
+		.links {
+			display: flex;
+			flex-direction: row;
+
+			gap: 10px;
+		}
+	}
+}

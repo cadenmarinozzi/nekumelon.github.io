@@ -1,0 +1,23 @@
+@use 'colors.scss' as *;
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'articulat-cf';
+
+	overflow-x: hidden;
+
+	color: $light;
+}
+
+a {
+	text-decoration: none;
+	color: $light;
+}
+
+a:hover {
+	text-decoration: underline;
+}
