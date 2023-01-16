@@ -16,9 +16,10 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
-		"predeploy": "npm run build",
+		"predeploy": "npm run build && npm run postbuild",
 		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
+		"postbuild": "./scripts/postbuild.sh",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
