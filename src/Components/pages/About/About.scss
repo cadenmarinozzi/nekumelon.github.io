@@ -15,11 +15,13 @@
 
 		gap: 10px;
 
-		text-align: center;
+		text-align: left;
+
+		padding-left: 10px;
 
 		position: absolute;
 
-		max-width: 43%;
+		max-width: 20%;
 	}
 
 	.hand-hold-container {
@@ -33,6 +35,41 @@
 
 		.hand-hold {
 			height: 100vh;
+		}
+	}
+}
+
+.about-mobile {
+	width: 100vw;
+	height: 100vh;
+
+	background: $light;
+	color: $dark;
+
+	position: relative;
+
+	.subtitles {
+		display: flex;
+		flex-direction: row;
+
+		gap: 10px;
+
+		text-align: left;
+
+		padding: 10px;
+	}
+
+	.hand-hold-container-mobile {
+		width: 100vw;
+		position: absolute;
+
+		bottom: 0;
+		right: 0;
+
+		background: $dark;
+
+		.hand-hold {
+			width: 100vw;
 		}
 	}
 }

@@ -9,6 +9,17 @@
 	}
 }
 
+.background-mobile {
+	overflow: hidden;
+
+	width: 100vw;
+	height: 100vh;
+
+	.background-render {
+		height: 150vh;
+	}
+}
+
 .home {
 	position: absolute;
 
@@ -29,6 +40,30 @@
 
 		.subtitle {
 			text-align: left;
+			font-size: 1.1rem;
+		}
+	}
+}
+
+.home-mobile {
+	position: absolute;
+
+	top: 50%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+
+	.title-container {
+		text-align: center;
+
+		display: flex;
+		flex-direction: column;
+
+		gap: 20px;
+
+		align-items: center;
+
+		.subtitle {
 			font-size: 1.1rem;
 		}
 	}

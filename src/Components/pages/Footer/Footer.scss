@@ -25,6 +25,7 @@
 
 	.definition {
 		position: absolute;
+
 		left: 50%;
 		top: 50%;
 
@@ -42,6 +43,7 @@
 			.definition-title {
 				font-size: 1.5rem;
 			}
+
 			transform: translateX(50px);
 		}
 
@@ -55,6 +57,71 @@
 
 		.definition-definition {
 			transform: translateX(50px);
+		}
+	}
+}
+
+.footer-mobile {
+	width: 100vw;
+	color: black;
+
+	position: relative;
+
+	top: 100vh;
+
+	transform: translateY(-50%);
+
+	display: flex;
+	flex-direction: row;
+
+	justify-content: space-around;
+
+	gap: 40px;
+
+	padding-left: 10px;
+}
+
+.definition-container-mobile {
+	width: 100vw;
+	height: 100vh;
+
+	position: relative;
+
+	.definition {
+		position: absolute;
+
+		left: 50%;
+		top: 50%;
+
+		color: $dark;
+
+		transform: translate(-50%, -50%);
+
+		display: flex;
+		flex-direction: column;
+
+		.definition-header {
+			display: flex;
+			flex-direction: column;
+
+			.definition-title {
+				font-size: 1.5rem;
+			}
+
+			transform: translateX(10px);
+		}
+
+		.definition-type {
+			font-style: italic;
+		}
+
+		.definition-example {
+			transform: translateX(10px);
+		}
+
+		.definition-definition {
+			transform: translateX(10px);
+			min-width: 80vw;
 		}
 	}
 }
