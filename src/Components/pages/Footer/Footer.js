@@ -1,9 +1,17 @@
-import { Component } from 'react';
+import { Component, createRef } from 'react';
 import './Footer.scss';
 
 class Footer extends Component {
+	constructor() {
+		super();
+
+		this.footerRef = createRef();
+	}
+
 	handleScroll() {
-		const footer = document.querySelector('.footer');
+		if (!this.footerRef.current) return;
+
+		const footer = this.footerRef.current;
 		const footerRect = footer.getBoundingClientRect();
 
 		if (footerRect.top <= window.innerHeight) {
@@ -47,7 +55,7 @@ class Footer extends Component {
 			</>
 		) : (
 			<>
-				<div className='footer'>
+				<div className='footer' ref={this.footerRef}>
 					<span>
 						Website built with: Just kidding, I built it myself :
 						{')'}

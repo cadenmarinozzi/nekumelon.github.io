@@ -1,8 +1,8 @@
 {
-  "short_name": "Caden Marinozzi",
-  "name": "Caden Marinozzi",
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+	"short_name": "cadenmarinozzi.me",
+	"name": "Caden Marinozzi",
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#ffffff"
 }
