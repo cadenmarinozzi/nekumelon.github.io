@@ -1,0 +1,57 @@
+@use 'colors.scss' as *;
+
+.images {
+	display: grid;
+
+	grid-template-columns: repeat(4, 1fr);
+
+	img {
+		width: 100%;
+		height: 100%;
+
+		object-fit: cover;
+
+		display: block;
+	}
+
+	.img-wide {
+		grid-column: span 3;
+	}
+}
+
+.images-mobile {
+	display: flex;
+	flex-direction: column;
+
+	img {
+		width: 100%;
+		height: 100%;
+
+		object-fit: cover;
+
+		display: block;
+	}
+}
+
+.graphic-portfolio-header {
+	display: flex;
+	flex-direction: row;
+
+	align-items: center;
+
+	justify-content: space-between;
+
+	width: calc(100% - 20px);
+
+	color: $dark;
+
+	padding: 10px;
+
+	.label {
+		text-align: right;
+	}
+
+	.back-button {
+		color: $dark;
+	}
+}

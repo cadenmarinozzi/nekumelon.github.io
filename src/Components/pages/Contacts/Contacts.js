@@ -5,7 +5,7 @@ function Contacts() {
 	return window.innerWidth <= 500 ? (
 		<div className='contacts-mobile'>
 			<div className='content'>
-				<span className='title'>I build software.</span>
+				<span className='title2-mobile'>I build software.</span>
 				<div className='links'>
 					<a
 						href='https://github.com/nekumelon'
@@ -41,6 +41,9 @@ function Contacts() {
 						LinkedIn
 					</a>
 					<Link to='/resume'>Resume</Link>
+					<Link to='/graphic-design-portfolio'>
+						Graphic Design Portfolio
+					</Link>
 				</div>
 			</div>
 		</div>
