@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7d9732d6.css",
-    "main.js": "/static/js/main.f1d05f22.js",
+    "main.js": "/static/js/main.94423743.js",
     "static/media/background-render.png": "/static/media/background-render.e5fc5481a9e86f2df430.png",
     "static/media/eye.png": "/static/media/eye.001e35cbb2b5bf0c71d5.png",
     "static/media/cardboard.png": "/static/media/cardboard.b2a889b541e6a62f96fc.png",
@@ -10,6 +10,7 @@
     "static/media/vintage.png": "/static/media/vintage.f62071876b54d62c3b2c.png",
     "static/media/marbleparty.png": "/static/media/marbleparty.f6c629ef7dfc02912627.png",
     "static/media/hominids1.png": "/static/media/hominids1.e52d4773069f068ff135.png",
+    "static/media/NEURON.png": "/static/media/NEURON.26f801b763981e0eaebd.png",
     "static/media/png.png": "/static/media/png.7eba0c679b9c482dd6dd.png",
     "static/media/23.png": "/static/media/23.dd0ead4714b714823e55.png",
     "static/media/statuenograin.png": "/static/media/statuenograin.849606ca01670f83cd06.png",
@@ -20,10 +21,10 @@
     "static/media/Resume.pdf": "/static/media/Resume.85df1ad74e3e14eadce7.pdf",
     "index.html": "/index.html",
     "main.7d9732d6.css.map": "/static/css/main.7d9732d6.css.map",
-    "main.f1d05f22.js.map": "/static/js/main.f1d05f22.js.map"
+    "main.94423743.js.map": "/static/js/main.94423743.js.map"
   },
   "entrypoints": [
     "static/css/main.7d9732d6.css",
-    "static/js/main.f1d05f22.js"
+    "static/js/main.94423743.js"
   ]
 }
