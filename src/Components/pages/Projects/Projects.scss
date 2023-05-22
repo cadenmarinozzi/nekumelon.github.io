@@ -1,0 +1,22 @@
+@use 'vars.scss' as *;
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .project {
+        border-bottom: 1px solid black;
+
+        .image {
+            width: 100%;
+        }
+
+        .header {
+            .name {}
+        }
+    }
+
+    .project:nth-child(odd) {
+        border-right: 1px solid black;
+    }
+}

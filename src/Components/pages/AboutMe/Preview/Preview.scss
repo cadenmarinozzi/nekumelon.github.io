@@ -1,0 +1,62 @@
+@use 'vars.scss' as *;
+
+.link {
+    text-decoration: none;
+}
+
+.about-preview {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: $spacing-small;
+
+    cursor: pointer;
+
+    .hover-arrow {
+        --arrowHoverTransition: 150ms cubic-bezier(0.215, 0.61, 0.355, 1);
+        --arrowHoverOffset: translateX(3px);
+
+        --arrowTipTransform: none;
+        --arrowLineOpacity: 0;
+
+        stroke-width: 1px;
+
+        fill: none;
+        stroke: currentColor;
+    }
+
+    g {
+        fill-rule: evenodd;
+    }
+
+    @media (pointer: fine) {
+
+        &:hover .hover-arrow__line-path,
+        &:hover .hover-arrow__line-path {
+            --arrowLineOpacity: 1;
+        }
+    }
+
+    .hover-arrow__line-path {
+        opacity: var(--arrowLineOpacity);
+        transition: opacity var(--hoverTransition, var(--arrowHoverTransition));
+    }
+
+    @media (pointer: fine) {
+
+        &:hover .hover-arrow__tip-path,
+        &:hover .hover-arrow__tip-path {
+            --arrowTipTransform: var(--arrowHoverOffset);
+        }
+    }
+
+    .hover-arrow__tip-path {
+        transform: var(--arrowTipTransform);
+        transition: transform var(--hoverTransition, var(--arrowHoverTransition));
+    }
+}

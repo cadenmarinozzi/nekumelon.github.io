@@ -1,0 +1,43 @@
+@use 'vars.scss' as *;
+
+.contact-preview {
+    display: flex;
+    flex-direction: row;
+
+    height: 100%;
+
+    align-items: center;
+    justify-content: space-around;
+
+    gap: $spacing-small;
+
+    overflow: clip;
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        position: relative;
+
+        cursor: pointer;
+
+        .hidden-contacts {
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+
+            opacity: 0;
+
+            top: 100%;
+
+            position: absolute;
+
+            .hidden-contact {
+                color: black;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@use 'vars.scss' as *;
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+
+    padding: $spacing-large;
+
+    .section {
+        display: flex;
+        flex-direction: column;
+
+        gap: $spacing-medium;
+
+        .details {
+            display: flex;
+            flex-direction: column;
+
+            gap: $spacing-medium;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Arges-BlackCondensed';
+    src: url('./assets/fonts/Arges-BlackCondensed.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Aventa-Regular';
+    src: url('./assets/fonts/Aventa-Regular.woff2') format('woff2');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Aventa-Regular', sans-serif;
+    font-size: 16pt;
+}
+
+h1 {
+    font-size: 150pt;
+}
+
+a {
+    color: inherit;
+}

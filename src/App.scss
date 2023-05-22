@@ -1,0 +1,7 @@
+@use 'vars.scss' as *;
+
+.page-content {
+    margin: $spacing-large;
+
+    border: 1px solid black;
+}

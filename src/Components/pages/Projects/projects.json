@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Jarvis 2.0",
+        "description": "An extensive, modular, AI driven assistant.",
+        "url": "https://github.com/nekumelon/Jarvis-2.0"
+    },
+    {
+        "name": "TamGames",
+        "description": "A game website with a variety of games and a large user base.",
+        "url": "https://github.com/nekumelon/TamGames",
+        "image": "https://tamgames.net/assets/images/logoSmall.png"
+    },
+    {
+        "name": "Covid19 Detection",
+        "description": "A detection neural network to predict whether an xray scan of a patients chest contains Covid-19.",
+        "url": "https://github.com/nekumelon/Covid19-Detection",
+        "image": "https://prod-images-static.radiopaedia.org/images/157210/332aa0c67cb2e035e372c7cb3ceca2_jumbo.jpg"
+    },
+    {
+        "name": "EmbeDB",
+        "description": "An embedding vector database for images and text.",
+        "url": "https://github.com/nekumelon/EmbeDB"
+    },
+    {
+        "name": "GetTam",
+        "description": "A game website that gained a large popularity in Marin.",
+        "url": "https://github.com/nekumelon/GetTam-React",
+        "image": "./gettam.png"
+    },
+    {
+        "name": "Reducing the impact of large-scale cryptocurrency mining",
+        "description": "A web presentation on the impact of cryptocurrency mining.",
+        "url": "https://github.com/nekumelon/Reducing-The-Impact-Of-Large-Scale-Cryptocurrency-Mining",
+        "image": "./ReducingCrypto.png"
+    },
+    {
+        "name": "Interami",
+        "description": "A simple solution for peer-to-peer language learning.",
+        "url": "https://github.com/nekumelon/Interami",
+        "image": "https://i.ytimg.com/vi/IBrrkyFImdw/maxresdefault.jpg"
+    },
+    {
+        "name": "CodeDoc",
+        "description": "An AI code documentation VSCode extension.",
+        "url": "https://github.com/nekumelon/CodeDoc"
+    },
+    {
+        "name": "crackcat",
+        "description": "A multi-threaded distributed password cracker.",
+        "url": "https://github.com/nekumelon/crackcat"
+    },
+    {
+        "name": "FitFul",
+        "description": "A fitness app that guides new nembers through their fitness journey.",
+        "url": "https://github.com/nekumelon/BeFit"
+    },
+    {
+        "name": "CodeXR",
+        "description": "An AI VSCode extension that provides real time inline code completions",
+        "url": "https://github.com/nekumelon/BeFit",
+        "image": "https://github.com/nekumelon/CodeXR/blob/main/assets/CodeXRLogo.png?raw=true"
+    },
+    {
+        "name": "ShortLinked",
+        "description": "An easy to use open source url shortener.",
+        "url": "https://github.com/nekumelon/ShortLinked",
+        "image": "./ShortLinked.png"
+    },
+    {
+        "name": "BlackHole RayMarcher V2",
+        "description": "A black hole ray marcher with gravitational warping, doppler shifting, gravitational shifting, and blackbody temperature.",
+        "url": "https://github.com/nekumelon/BlackHole-Raymarcher-V2",
+        "image": "https://github.com/nekumelon/BlackHole-Raymarcher-V2/raw/main/assets/INFO.png"
+    },
+    {
+        "name": "Spool",
+        "description": "A collection of spotify tools and services.",
+        "url": "https://github.com/nekumelon/Spool"
+    },
+    {
+        "name": "PhUn",
+        "description": "A gallery of physics and math simulations and visualizations with explanations and code.",
+        "url": "https://github.com/nekumelon/Spool",
+        "image": "./PhUn.png"
+    },
+    {
+        "name": "BlackHole Raytracer",
+        "description": "My first iteration of a black hole ray tracer",
+        "url": "https://github.com/nekumelon/BlackHoleRaytracer",
+        "image": "https://github.com/nekumelon/BlackHoleRaytracer/raw/main/assets/blackHole1.png"
+    }
+]

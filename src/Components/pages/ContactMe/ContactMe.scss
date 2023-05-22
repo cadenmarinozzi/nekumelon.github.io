@@ -1,0 +1,38 @@
+@use 'vars.scss' as *;
+
+.contact-me {
+    .contacts {
+        display: flex;
+        flex-direction: row;
+
+        height: 100%;
+
+        justify-content: space-around;
+
+        gap: $spacing-small;
+
+        overflow: clip;
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+
+            cursor: pointer;
+
+            .hidden-contacts {
+                display: flex;
+                flex-direction: column;
+
+                align-items: center;
+
+                opacity: 0;
+
+                .hidden-contact {
+                    color: black;
+                }
+            }
+        }
+    }
+}

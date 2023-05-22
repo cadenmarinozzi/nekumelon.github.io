@@ -1,0 +1,44 @@
+@use 'vars.scss' as *;
+
+.graphic-designs {
+    padding: $spacing-small;
+
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+
+        .column {
+            flex: 50%;
+            max-width: calc(50% - #{$spacing-small * 2});
+
+            padding-inline: $spacing-small;
+
+            span {
+                margin: $spacing-small;
+                vertical-align: middle;
+
+                width: 100%;
+
+                img {
+                    width: 100%;
+
+                    object-fit: cover;
+                }
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            .column {
+                flex: 50%;
+                max-width: 50%;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .column {
+                flex: 100%;
+                max-width: 100%;
+            }
+        }
+    }
+}

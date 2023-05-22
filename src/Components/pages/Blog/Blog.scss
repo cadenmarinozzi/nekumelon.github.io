@@ -1,0 +1,42 @@
+@use 'vars.scss' as *;
+
+.blog {
+    .blog-header {
+        .blog-title {
+            font-size: 100pt;
+        }
+    }
+
+    .posts {
+        display: flex;
+        flex-direction: column;
+
+        gap: $spacing-medium;
+
+        padding: $spacing-large;
+
+        .post {
+            display: flex;
+            flex-direction: column;
+
+            gap: $spacing-small;
+
+            .header {
+                display: flex;
+                flex-direction: row;
+
+                align-items: center;
+
+                gap: $spacing-medium;
+
+                .title {}
+
+                .date {
+                    font-size: 12pt;
+                }
+            }
+
+            .content {}
+        }
+    }
+}

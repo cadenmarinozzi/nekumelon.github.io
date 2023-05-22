@@ -1,0 +1,27 @@
+// .projects-preview {
+//     display: flex;
+//     flex-direction: column;
+
+//     .project {
+//         display: flex;
+//         flex-direction: row;
+
+//         .image {
+//             height: 100px;
+//             width: 100px;
+//         }
+
+//         .header {
+//             .name {}
+//         }
+//     }
+// }
+.projects-preview {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}
