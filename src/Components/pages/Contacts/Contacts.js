@@ -8,7 +8,7 @@ function Contacts() {
 				<span className='title2-mobile'>I build software.</span>
 				<div className='links'>
 					<a
-						href='https://github.com/nekumelon'
+						href='https://github.com/cadenmarinozzi'
 						rel='noreferrer'
 						target='_blank'>
 						GitHub
@@ -29,7 +29,7 @@ function Contacts() {
 				<span className='title'>I build software.</span>
 				<div className='links'>
 					<a
-						href='https://github.com/nekumelon'
+						href='https://github.com/cadenmarinozzi'
 						rel='noreferrer'
 						target='_blank'>
 						GitHub
